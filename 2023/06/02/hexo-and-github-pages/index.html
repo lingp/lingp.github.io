@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>努力奋斗</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="努力奋斗">
+  <title>基于 GitHub Pages + Hexo 搭建个人博客 | 努力奋斗</title>
+  <meta name="keywords" content=" hexo , fluid ">
+  <meta name="description" content="基于 GitHub Pages + Hexo 搭建个人博客 | 努力奋斗">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="简介">
@@ -54,7 +54,7 @@
 
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/"
    class="avatar_target">
@@ -289,12 +289,62 @@
         </div>
     </div>
 </aside>
-<div id="post" class="index">
+<div id="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-hexo-and-github-pages" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AF%A5%E5%8D%9A%E5%AE%A2%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9"><span class="toc-text">该博客主要内容</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AB%8B%E4%B8%AAflag"><span class="toc-text">立个flag</span></a></li></ol></li></ol>
+        <h1 class="article-title">基于 GitHub Pages + Hexo 搭建个人博客</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="工具">工具</a> > 
+            
+            <a  data-rel="工具&lt;---&gt;hexo">hexo</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color5">hexo</a>
+            
+            <a class="color1">fluid</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            发布时间 : <time class="date" title='最后更新: 2023-06-03 14:32:49'>2023-06-02 17:02</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80-%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-text">一 准备工作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C-%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="toc-text">二 创建仓库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89-%E5%AE%89%E8%A3%85Hexo"><span class="toc-text">三 安装Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B-%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="toc-text">四 更换主题</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-text">安装</span></a></li></ol></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -307,23 +357,75 @@
     }
 </style>
 </div>
-            <h1 id="该博客主要内容"><a href="#该博客主要内容" class="headerlink" title="该博客主要内容"></a>该博客主要内容</h1><blockquote>
-<p>日常的一些学习内容和笔记</p>
-</blockquote>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="一-准备工作"><a href="#一-准备工作" class="headerlink" title="一 准备工作"></a>一 准备工作</h3><ol>
+<li>注册Github</li>
+<li>安装git</li>
+<li>安装NodeJS</li>
+</ol>
+<h3 id="二-创建仓库"><a href="#二-创建仓库" class="headerlink" title="二 创建仓库"></a>二 创建仓库</h3><ol>
+<li>进入仓库<img src="/2023/06/02/hexo-and-github-pages/into_repositories.png" class=""></li>
+<li>点击 “NEW” 创建仓库<img src="/2023/06/02/hexo-and-github-pages/new_repositories.png" class=""></li>
+<li>创建仓库，<strong>注意:</strong> 格式必须为&lt;用户名&gt;.github.io，ps:截图里的 lingpx 是因为我已经创建过仓库了，加个x演示下成功的状态<img src="/2023/06/02/hexo-and-github-pages/create_repositories.png" class=""></li>
+<li>点击creating a new file 创建新文件，作为网站的主页<img src="/2023/06/02/hexo-and-github-pages/new_file.png" class=""></li>
+<li>新文件的名字必须为index.html，填写后提交<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=&lt;device-width&gt;, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li>访问主页链接 <a target="_blank" rel="noopener" href="https://lingp.github.io/">https://lingp.github.io/</a>，访问的地址就是 <strong>https:&#x2F;&#x2F;用户名.github.io</strong> ，以下可以看到自己的主页链接<img src="/2023/06/02/hexo-and-github-pages/site.png" class=""></li>
+</ol>
+<h3 id="三-安装Hexo"><a href="#三-安装Hexo" class="headerlink" title="三 安装Hexo"></a>三 安装Hexo</h3><p>官网地址：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
+<ol>
+<li><p>安装</p>
 <blockquote>
-<p>面试题的收集和整理</p>
+<p>npm install hexo-cli -g</p>
 </blockquote>
-<h2 id="立个flag"><a href="#立个flag" class="headerlink" title="立个flag"></a>立个flag</h2><blockquote>
-<p>坚持一年输出</p>
+</li>
+<li><p>查看版本</p>
+<blockquote>
+<p>hexo -v</p>
 </blockquote>
+</li>
+<li><p>创建项目</p>
+<blockquote>
+<p>hexo init hexo-blog<br>cd hexo-blog<br>npm install</p>
+</blockquote>
+</li>
+<li><p>本地启动</p>
+<blockquote>
+<p>hexo g<br>hexo server<br>或者简写<br>hexo g &amp; s</p>
+</blockquote>
+</li>
+<li><p>访问本地链接 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></p>
+</li>
+</ol>
+<h3 id="四-更换主题"><a href="#四-更换主题" class="headerlink" title="四 更换主题"></a>四 更换主题</h3><p>官网主题地址：<a target="_blank" rel="noopener" href="https://hexo.io/themes/">https://hexo.io/themes/</a><br>我这边选用的是”3-hexo”主题，可以根据自己喜欢的主题更换<br>主题地址：<a target="_blank" rel="noopener" href="https://github.com/yelog/hexo-theme-3-hexo">https://github.com/yelog/hexo-theme-3-hexo</a></p>
+<img src="/2023/06/02/hexo-and-github-pages/theme.png" class="">
 
-        </article>
-        
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+<h5 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h5><blockquote>
+<p>git clone <a target="_blank" rel="noopener" href="https://github.com/yelog/hexo-theme-3-hexo.git">https://github.com/yelog/hexo-theme-3-hexo.git</a> themes&#x2F;3-hexo<br>修改hexo根目录的_config.yml，如下<br>theme: 3-hexo<br>本地启动：hexo g  &amp; s</p>
+</blockquote>
+<hr>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达. </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">
@@ -332,11 +434,11 @@
 <p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
 
     </div>
-</div>
-<div class="full-toc">
-    <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
 <a class="" id="rocket" ></a>
 
+    </div>
 </div>
 
 <div class="hide_box" onclick="dashangToggle()"></div>
