@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>努力奋斗</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="努力奋斗">
+  <title>使用uniapp遇到的问题 | 努力奋斗</title>
+  <meta name="keywords" content=" uniapp , vue3 ">
+  <meta name="description" content="使用uniapp遇到的问题 | 努力奋斗">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="简介">
@@ -54,7 +54,7 @@
 
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/"
    class="avatar_target">
@@ -397,12 +397,62 @@
         </div>
     </div>
 </aside>
-<div id="post" class="index">
+<div id="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-uniapp-problem" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AF%A5%E5%8D%9A%E5%AE%A2%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9"><span class="toc-text">该博客主要内容</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AB%8B%E4%B8%AAflag"><span class="toc-text">立个flag</span></a></li></ol></li></ol>
+        <h1 class="article-title">使用uniapp遇到的问题</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="前端">前端</a> > 
+            
+            <a  data-rel="前端&lt;---&gt;uniapp">uniapp</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color2">uniapp</a>
+            
+            <a class="color5">vue3</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            发布时间 : <time class="date" title='最后更新: 2023-06-06 23:43:39'>2023-06-06 22:38</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8Uniapp%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%92%8C%E5%9D%91%EF%BC%8C%E7%89%88%E6%9C%AC%EF%BC%9Avue3%EF%BC%8CHbuilderX-3-8-4-20230531"><span class="toc-text">使用Uniapp遇到的问题和坑，版本：vue3，HbuilderX-3.8.4.20230531</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%AD%97%E4%BD%93%E6%96%87%E4%BB%B6%E5%BC%95%E5%85%A5%E4%B8%8D%E6%88%90%E5%8A%9F%EF%BC%9F"><span class="toc-text">1.字体文件引入不成功？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%BD%BF%E7%94%A8nvue%E6%97%B6%EF%BC%8Cslot%E5%BC%95%E5%85%A5%E5%9B%BE%E6%A0%87%EF%BC%8C%E5%9C%A8app%E4%B8%8D%E7%94%9F%E6%95%88%EF%BC%9F"><span class="toc-text">2.使用nvue时，slot引入图标，在app不生效？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%BD%BF%E7%94%A8nvue%E6%97%B6%EF%BC%8Cslot%E5%9C%A8%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8D%E6%B8%B2%E6%9F%93%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%9F"><span class="toc-text">2.使用nvue时，slot在微信小程序不渲染的问题？</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -415,23 +465,49 @@
     }
 </style>
 </div>
-            <h1 id="该博客主要内容"><a href="#该博客主要内容" class="headerlink" title="该博客主要内容"></a>该博客主要内容</h1><blockquote>
-<p>日常的一些学习内容和笔记</p>
-</blockquote>
-<blockquote>
-<p>面试题的收集和整理</p>
-</blockquote>
-<h2 id="立个flag"><a href="#立个flag" class="headerlink" title="立个flag"></a>立个flag</h2><blockquote>
-<p>坚持一年输出</p>
-</blockquote>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><div class='inner-toc'><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8Uniapp%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%92%8C%E5%9D%91%EF%BC%8C%E7%89%88%E6%9C%AC%EF%BC%9Avue3%EF%BC%8CHbuilderX-3-8-4-20230531"><span class="toc-text">使用Uniapp遇到的问题和坑，版本：vue3，HbuilderX-3.8.4.20230531</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%AD%97%E4%BD%93%E6%96%87%E4%BB%B6%E5%BC%95%E5%85%A5%E4%B8%8D%E6%88%90%E5%8A%9F%EF%BC%9F"><span class="toc-text">1.字体文件引入不成功？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%BD%BF%E7%94%A8nvue%E6%97%B6%EF%BC%8Cslot%E5%BC%95%E5%85%A5%E5%9B%BE%E6%A0%87%EF%BC%8C%E5%9C%A8app%E4%B8%8D%E7%94%9F%E6%95%88%EF%BC%9F"><span class="toc-text">2.使用nvue时，slot引入图标，在app不生效？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%BD%BF%E7%94%A8nvue%E6%97%B6%EF%BC%8Cslot%E5%9C%A8%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8D%E6%B8%B2%E6%9F%93%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%9F"><span class="toc-text">2.使用nvue时，slot在微信小程序不渲染的问题？</span></a></li></ol></li></ol></div></p>
+<h1 id="使用Uniapp遇到的问题和坑，版本：vue3，HbuilderX-3-8-4-20230531"><a href="#使用Uniapp遇到的问题和坑，版本：vue3，HbuilderX-3-8-4-20230531" class="headerlink" title="使用Uniapp遇到的问题和坑，版本：vue3，HbuilderX-3.8.4.20230531"></a>使用Uniapp遇到的问题和坑，版本：vue3，HbuilderX-3.8.4.20230531</h1><h2 id="1-字体文件引入不成功？"><a href="#1-字体文件引入不成功？" class="headerlink" title="1.字体文件引入不成功？"></a>1.字体文件引入不成功？</h2><p>参考链接：<a target="_blank" rel="noopener" href="https://uniapp.dcloud.net.cn/tutorial/project.html">https://uniapp.dcloud.net.cn/tutorial/project.html</a><br>static:存放应用引用的本地静态资源（如图片、视频、图标字体文件等）的目录，<strong>注意：静态资源只能存放于此</strong></p>
+<h2 id="2-使用nvue时，slot引入图标，在app不生效？"><a href="#2-使用nvue时，slot引入图标，在app不生效？" class="headerlink" title="2.使用nvue时，slot引入图标，在app不生效？"></a>2.使用nvue时，slot引入图标，在app不生效？</h2><p>在非App下slot正常使用，这种用法在app上不生效</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">父：&lt;text class=&quot;iconfont&quot;&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/text&gt;</span><br><span class="line">子：&lt;IconButton&gt;&amp;#xe848;&lt;/IconButton&gt;</span><br></pre></td></tr></table></figure>
 
-        </article>
-        
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+<p>在app上生效的方式，在子组件定义一个icon, 父组件传值进来’\ue848’，单引号不能缺失，注意如下</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">父：&lt;text class=&quot;iconfont&quot;&gt;&#123;&#123;icon&#125;&#125;&lt;/text&gt;</span><br><span class="line">子：&lt;IconButton :icon=&quot;&#x27;\ue848&#x27;&quot;&gt;&lt;/IconButton&gt;</span><br></pre></td></tr></table></figure>
+
+<p>完整代码</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 父组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">class</span>=<span class="string">&quot;flex flex-row align-center justify-center mr-2&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">IconButton</span> <span class="attr">:icon</span>=<span class="string">&quot;&#x27;\ue848&#x27;&quot;</span>&gt;</span><span class="symbol">&amp;#xe848;</span><span class="tag">&lt;/<span class="name">IconButton</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">IconButton</span> <span class="attr">:icon</span>=<span class="string">&quot;&#x27;\ue84f&#x27;&quot;</span>&gt;</span><span class="symbol">&amp;#xe84f;</span><span class="tag">&lt;/<span class="name">IconButton</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 子组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">view</span> <span class="attr">class</span>=<span class="string">&quot;flex align-center justify-center&quot;</span> <span class="attr">hover-class</span>=<span class="string">&quot;bg-hover-light&quot;</span> <span class="attr">style</span>=<span class="string">&quot;height: 80rpx; width: 80rpx;&quot;</span>&gt;</span></span><br><span class="line">		<span class="comment">&lt;!-- #ifdef APP-PLUS-NVUE --&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">text</span> <span class="attr">class</span>=<span class="string">&quot;iconfont&quot;</span> <span class="attr">style</span>=<span class="string">&quot;font-size: 50rpx;color: #000000;&quot;</span>&gt;</span>&#123;&#123;icon&#125;&#125;<span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line">		<span class="comment">&lt;!-- #endif --&gt;</span></span><br><span class="line">		</span><br><span class="line">		<span class="comment">&lt;!-- #ifndef APP-PLUS-NVUE --&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">text</span> <span class="attr">class</span>=<span class="string">&quot;iconfont&quot;</span> <span class="attr">style</span>=<span class="string">&quot;font-size: 50rpx;color: #000000;&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">slot</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span><span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line">		<span class="comment">&lt;!-- #endif --&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> props = <span class="title function_">defineProps</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">  <span class="attr">icon</span>: <span class="title class_">String</span></span></span><br><span class="line"><span class="language-javascript">&#125;)</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-使用nvue时，slot在微信小程序不渲染的问题？"><a href="#2-使用nvue时，slot在微信小程序不渲染的问题？" class="headerlink" title="2.使用nvue时，slot在微信小程序不渲染的问题？"></a>2.使用nvue时，slot在微信小程序不渲染的问题？</h2><p>子组件定义</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">text</span> <span class="attr">v-if</span>=<span class="string">&quot;isShowTitle&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">slot</span> <span class="attr">name</span>=<span class="string">&quot;title&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span><span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>有问题的代码</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 父组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">navBarVue</span> <span class="attr">:isShowTitle</span>=<span class="string">&quot;true&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 这样微信小程序不展示 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">template</span> <span class="attr">v-slot:title</span>&gt;</span>WeChat<span class="tag">&lt;/<span class="name">template</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">navBarVue</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>解决方式</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 父组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">navBarVue</span> <span class="attr">:isShowTitle</span>=<span class="string">&quot;true&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 这里多加一个&lt;text&gt;&lt;/text&gt;不然小程序不渲染，真是奇怪 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">template</span> <span class="attr">v-slot:title</span>&gt;</span><span class="tag">&lt;<span class="name">text</span>&gt;</span>WeChat<span class="tag">&lt;/<span class="name">text</span>&gt;</span><span class="tag">&lt;/<span class="name">template</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">navBarVue</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达. </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">
@@ -440,11 +516,11 @@
 <p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
 
     </div>
-</div>
-<div class="full-toc">
-    <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
 <a class="" id="rocket" ></a>
 
+    </div>
 </div>
 
 <div class="hide_box" onclick="dashangToggle()"></div>
