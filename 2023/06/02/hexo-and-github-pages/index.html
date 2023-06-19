@@ -21,7 +21,7 @@
 
 <link href="/css/style.css?v=1.1.0" rel="stylesheet">
 
-<link href="/css/hl_theme/atom-light.css?v=1.1.0" rel="stylesheet">
+<link href="/css/hl_theme/darcula.css?v=1.1.0" rel="stylesheet">
 
 <link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
 
@@ -357,19 +357,10 @@
         
         <a  class="全部文章 后端 java "
            href="/2023/06/03/java-basic-interview-questions/"
-           data-tag="java,后端,面试题"
+           data-tag="后端,java,面试题"
            data-author="" >
             <span class="post-title" title="java基础面试题">java基础面试题</span>
             <span class="post-date" title="2023-06-03 16:16:21">2023/06/03</span>
-        </a>
-        
-        
-        <a  class="全部文章 工具 hexo "
-           href="/2023/06/02/my-blog-build-remark/"
-           data-tag="hexo,fluid"
-           data-author="" >
-            <span class="post-title" title="测试">测试</span>
-            <span class="post-date" title="2023-06-02 17:02:02">2023/06/02</span>
         </a>
         
         
@@ -378,6 +369,15 @@
            data-tag="hexo,fluid"
            data-author="" >
             <span class="post-title" title="基于 GitHub Pages + Hexo 搭建个人博客">基于 GitHub Pages + Hexo 搭建个人博客</span>
+            <span class="post-date" title="2023-06-02 17:02:02">2023/06/02</span>
+        </a>
+        
+        
+        <a  class="全部文章 工具 hexo "
+           href="/2023/06/02/my-blog-build-remark/"
+           data-tag="hexo,fluid"
+           data-author="" >
+            <span class="post-title" title="测试">测试</span>
             <span class="post-date" title="2023-06-02 17:02:02">2023/06/02</span>
         </a>
         
@@ -479,7 +479,22 @@
 <li>点击 “NEW” 创建仓库<img src="/2023/06/02/hexo-and-github-pages/new_repositories.png" class=""></li>
 <li>创建仓库，<strong>注意:</strong> 格式必须为&lt;用户名&gt;.github.io，ps:截图里的 lingpx 是因为我已经创建过仓库了，加个x演示下成功的状态<img src="/2023/06/02/hexo-and-github-pages/create_repositories.png" class=""></li>
 <li>点击creating a new file 创建新文件，作为网站的主页<img src="/2023/06/02/hexo-and-github-pages/new_file.png" class=""></li>
-<li>新文件的名字必须为index.html，填写后提交<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=&lt;device-width&gt;, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li>新文件的名字必须为index.html，填写后提交</li>
+</ol>
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=&lt;device-width&gt;, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<ol start="6">
 <li>访问主页链接 <a target="_blank" rel="noopener" href="https://lingp.github.io/">https://lingp.github.io/</a>，访问的地址就是 <strong>https:&#x2F;&#x2F;用户名.github.io</strong> ，以下可以看到自己的主页链接<img src="/2023/06/02/hexo-and-github-pages/site.png" class=""></li>
 </ol>
 <h3 id="三-安装Hexo"><a href="#三-安装Hexo" class="headerlink" title="三 安装Hexo"></a>三 安装Hexo</h3><p>官网地址：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
@@ -532,7 +547,8 @@
 <p>hexo new post test_article</p>
 </blockquote>
 <p>引入图片，参考:<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/asset-folders.html">https://hexo.io/zh-cn/docs/asset-folders.html</a></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img test_show.png %&#125;</span><br></pre></td></tr></table></figure>
+<pre><code>&#123;% asset_img test_show.png %&#125;
+</code></pre>
 <img src="/2023/06/02/hexo-and-github-pages/test_show.png" class="">
 
 <p>效果图：</p>
@@ -648,6 +664,20 @@
 
         /*高亮代码块行号*/
         
+        $('pre code').each(function(){
+            var lines = $(this).text().trim().split('\n').length, widther='';
+            if (lines>99) {
+                widther = 'widther'
+            }
+            var $numbering = $('<ul/>').addClass('pre-numbering ' + widther).attr("unselectable","on");
+            $(this).addClass('has-numbering ' + widther)
+                    .parent()
+                    .append($numbering);
+            for(var i=1;i<=lines;i++){
+                $numbering.append($('<li/>').text(i));
+            }
+        });
+        
 
         /*访问数量*/
         
@@ -672,6 +702,38 @@
 </script>
 
 <!--加入行号的高亮代码块样式-->
+
+<style>
+    pre{
+        position: relative;
+        margin-bottom: 24px;
+        border-radius: 10px;
+        border: 1px solid #e2dede;
+        background: #FFF;
+        overflow: hidden;
+    }
+    code.has-numbering{
+        margin-left: 30px;
+    }
+    code.has-numbering.widther{
+        margin-left: 35px;
+    }
+    .pre-numbering{
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        padding: 0.5em 3px 0.7em 5px;
+        border-right: 1px solid #C3CCD0;
+        text-align: right;
+        color: #AAA;
+        background-color: ;
+    }
+    .pre-numbering.widther {
+        width: 35px;
+    }
+</style>
 
 <!--自定义样式设置-->
 <style>
